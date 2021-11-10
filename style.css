@@ -1,0 +1,130 @@
+/* Colors and fonts */
+body {
+	background-color: #F5EDF0;
+	color:  #3B413C;
+	font-family: font-family: 'Montserrat', sans-serif;;
+	font-size: 17px;
+	font-weight:  lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+	color: #270722;
+	letter-spacing: 4px;
+	font-weight: 900;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #912F56;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration:  none;
+	color:  #F29CA3;
+	font-weight:  bold;
+	transition : color 0.3s ease;
+}
+a:hover{
+	color: black;
+}
+
+
+
+
+/* Custom design with class */
+
+#image {/* select the element with the id="image"*/
+	width:  50px;
+	box-shadow 0px 10px 10px rgba (0,0,0,0,9);
+}
+
+
+
+.img-circle { /* select all elements with the class="img-circle"*/
+	width:  100px;
+	border-radius: 50%;
+	height: 100px;
+
+ }
+
+.img-bordered {
+	border: 2px solid black;
+}
+
+ 
+ .container {
+ 	width: 700px;
+ 	margin:40px auto;
+ }
+
+
+@media (max-width:  720px) {
+	.container{
+		width:  600px;
+	}
+}
+
+
+@media (max-width:  550px) {
+	.container{
+		width:  350px;
+	}
+}
+
+
+ .card-design {
+ 	margin: 20px;
+ 	padding: 30px;
+ 	border:  3px  deeppink;
+ 	box-shadow:  2px 7px 15px lightgrey;
+ 	background:  white;
+ 	border-radius: 7px;
+ 	background-color:  white;
+ 	text-align:  center;
+ }
+
+ .btn {
+ 	background-color:  #F29CA3;
+ 	color: white;
+ 	padding: 15px 20px;
+	border-radius: 7px;
+ }
+
+ .btn:hover {
+ 	background-color: black;
+ 	color:  white;
+ }
+
+ .list-inline {
+ 	list-style: none;
+ 	padding-left: 0px;
+ }
+
+ .list-inline li {
+ 	display: inline;
+ 	padding:  10px;
+ }
+
+ .liste-inline i {
+ 	font-size: 50px;
+ 	color: rgb(210,210,210);
+ }
+
+ .list-inline i:hover {
+ 	color: black;
+ }
+
+/*Design ajustments using id*/ 
+
+ #introduction p {
+ 	margin-bottom: 30px;
+ }
